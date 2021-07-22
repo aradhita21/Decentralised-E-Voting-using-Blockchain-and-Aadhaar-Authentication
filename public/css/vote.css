@@ -1,0 +1,95 @@
+.header{
+  background-color:#a83451; 
+  padding:10px 10px 10px 10px; 
+  text-align: center;
+  border-radius: 25px;
+  color: rgb(252, 252, 252);
+  font-style: inherit  ;
+}
+    
+
+#footere {
+  position: fixed;
+  padding: 0px 10px ;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #d6d7d8;
+  color: rgb(68, 68, 68); 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.full{
+  overflow:auto
+}
+
+.full {
+  float: left;
+  width: 100%;
+  background-color: #fcfcfc;;
+  padding: 0px 20px 0px 20px;
+  margin-top: 7px;
+  text-align: center;
+  border: 20px;
+  border-radius: 5px;
+}
+
+.main {
+  /*float: left; */
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+  overflow: hidden;
+  margin-top: 7px;
+  text-align: center;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  height: 300px; /* Should be removed. Only for demonstration */
+  margin-top: 7px;
+  text-align: center;
+  border: 20px;
+  border-radius: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  text-align: center;
+
+}
+
+.button{
+  padding: 10px;
+  transition-duration: 0.4s;
+  width: 100%;
+  background-color: #4CAF50
+}
+.button:hover {
+  background-color: #3d78f8; /* Green */
+  color: white;
+}
+
+
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 100%;
+    padding: 0;
+}
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main {
+    width: 100%;
+  }
+}

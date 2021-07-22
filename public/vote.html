@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Voting system</title>
+
+  <!-- load CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">        <!-- Google web font "Open Sans" -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">                                            <!-- https://getbootstrap.com/ -->
+  <link rel="stylesheet" href="css/fontawesome-all.min.css">                                      <!-- Font awesome -->
+  <link rel="stylesheet" href="css/tooplate-style.css">                                           <!-- Templatemo style -->
+  <link href="css/animate.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+
+
+
+  <div class="tm-main">
+
+      <div class="container text-center tm-welcome-container">
+        <div class="tm-welcome">.
+         <h1 class="tm-site-description">Decentralized E-Voting System using Blockchain</h1>
+        </div>
+      </div>
+
+    <div class="container">
+      
+      <div class="tm-search-form-container">
+        <div class="form-group tm-search-box">
+          .
+          </div>
+      </div>
+
+      <form action="http://localhost:3000/info" method="POST">
+	
+      <div class="row tm-albums-container grid">
+        <div class="col-6 col-sm-6">
+              <h2>Candidate 1</h2>
+              <label><input class="cb pristine" name="Person1"  type="radio" value="1"> <span> Vote</span></label>
+              <p>It starts by standing with the poor, listening to voices unheard, and recognizing potential where others see despair.</p>       
+              </div>
+        <div class="col-6 col-sm-6">
+              <h2>Candidate 2</h2>
+              <label><input class="cb pristine" name="Person2" type="radio"  value="1" > <span>Vote</span></label>
+              <p>My purpose is to unite the world through sport to create a healthy planet, active communities and an equal playing field for all.</p>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-6 col-sm-6">
+              <h2>Candidate 3</h2>
+              <label><input class="cb pristine"  name="Person3" type="radio" value="1">  <span>Vote</span></label>
+              <p>it’s the radical idea of creating hope in a cynical world. Changing the way the world tackles poverty and building a world based on dignity.</p>
+           </div>
+        <div class="col-6 col-sm-6">
+          <h2>Candidate 4</h2>
+              <label><input class="cb pristine"  name="Person4" type="radio" value="1">  <span>Vote</span></label>
+              <p> I believe that works of art should be supported by members of a community as important symbols of cohesive community.</p>
+          </div>
+      
+            <div id = "votesubmit">     
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">Submit your vote</button>
+      </div>
+      </div>
+    </form>
+
+    </div> <!-- .row -->
+
+    </div> <!-- .container -->
+
+  </div> <!-- .main -->
+
+  <div class="footer">
+    <ul class="class   copy-right">
+        <div>
+          <p align="center">Made with <i class="fa fa-heart" style="color:red;"></i> by NITH</p>
+        </div>
+    </ul>  
+</div>
+
+  <!-- load JS -->
+  <script  src="js/index.js"></script>
+  <script src="js/jquery-3.2.1.slim.min.js"></script> <!-- https://jquery.com/ -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script> 
+  <script>
+    /* DOM is ready
+    ------------------------------------------------*/
+    $(function () {
+
+      if (renderPage) {
+        $('body').addClass('loaded');
+      }
+
+      $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright
+    });
+
+  </script>
+</body>
+</html>

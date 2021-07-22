@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+    <title>
+		Blockchain Voting System
+	</title>  
+       <link rel="stylesheet" href="css/vote.css">       
+  </head>
+<body>
+
+  <div class = "header">
+    <h1>Major Project</h1>
+    <h2>Decentralized E-Voting System using Blockchain</h2>
+  </div>
+
+  <div class = "full">
+    <p class="loc_info"><h3>Select the candidate</h3></p>
+ </div>
+
+  <div class="main">
+    <form action="http://localhost:3000/info" method="POST">
+	  
+    <div class="row">
+      <div class="column" style="background-color:#dad8d8; ">
+        <h2>Party 1</h2>
+        <p>Candidate 1</p>
+        <label><input class="cb pristine" name="Person1"  type="radio" value="1"> <span> Vote</span></label>
+      </div>
+      <div class="column" style="background-color:#dfdede; ">
+        <h2>Party 2</h2>
+        <p>Candidate 2</p>
+        <label><input class="cb pristine" name="Person2" type="radio"  value="1" > <span>Vote</span></label>
+      </div>
+      <div class="column" style="background-color:#dad8d8; ">
+        <h2>Party 3</h2>
+        <p>Candidate 3</p>
+        <label><input class="cb pristine"  name="Person3" type="radio" value="1">  <span>Vote</span></label>
+      </div>
+      <div class="column" style="background-color:#dfdede; ">
+        <h2>Party 4</h2>
+        <p>Candidate 4</p>
+        <label><input class="cb pristine"  name="Person4" type="radio" value="1">  <span>Vote</span></label>
+      </div>
+    </div>
+    <div class = "full"> </div>
+
+    <div id = "votesubmit">
+      <button class="button" type="submit"> <p>Submit Vote </p></button>
+    </div>
+    
+    </form>
+    </div>     
+  <div class = "full">
+   </div>
+
+<div id="footer"><p></p></div>
+
+<script  src="js/index.js"></script>
+</body>
+</html>
