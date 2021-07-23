@@ -1,5 +1,5 @@
 # 
-Decentralised-E-Voting-with-Blockchain 
+Decentralised-E-Voting-with-Blockchain with Aadhaar authentication
 
 Aim : 
 Electronic voting is often seen as a tool for making the electoral process more efficient and for increasing trust in its
