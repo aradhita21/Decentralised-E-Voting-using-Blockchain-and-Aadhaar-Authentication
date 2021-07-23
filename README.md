@@ -1,29 +1,31 @@
-# blockchain-voting-system
-Block chain voting system with NodeJS 
+# 
+Decentralised-E-Voting-with-Blockchain 
 
-AIM:
-The block chain might offer a massively scalable solution to current and outdated voting methods by providing secure and fraud-proof digital voting.
+Aim : 
+Electronic voting is often seen as a tool for making the electoral process more efficient and for increasing trust in its
+management. Using blockchain technology, voting process can be made more secure, transparent, immutable, and reliable.
 
-DESCRYPTION:
-The Block chain is The Block chain is a continuously growing list of records, called blocks, which are linked and secured using cryptography. Each block typically contains a cryptographic hash of the previous block, a timestamp and transaction data. By using this advanced technology, we will be able to gain transparency into our elections, without compromising voter privacy, and have a way to mathematically prove that the elections results are accurate. In addition, at the voter’s request, there would even be a way to allow a voter to cast their vote online in an election and follow their vote into the ballot box to ensure that their vote was safely and securely stored without being changed or altered in any way.
+Description : 
+This project is an E-Voting System with blockchain technology. The following are the parts that are involved in the system’s infrastructure design.
 
-
-Voting Page :
-http://localhost:3000/
-
-Result of voting Page : 
-http://localhost:3000/result
-
-
-npm i crypto-js
-
-	"400000000000": "9418014909",
-  	"100000000000": "9418191928",
-    "200000000000": "9418191928",
-    "300000000000": "9418191928",
+	Decentralized system  
+	Blockchain 
+	Aadhaar for authentication 
+	
+  	
 ----------------------------------------
-BlockChainVoting.js :-------
 
-VOTE class is constructed for candidates along with their vote numbers.
-(this.personOne = voteOne)
-Block class is constructed for blockchain's block
+This project explores the potential of blockchain technology and its usefulness in the e-voting scheme. The blockchain will be publicly verifiable and decentralised in a way that no one will be able to corrupt it.
+
+
+Output : 
+	
+	voting page : 
+	http://localhost:3000/
+	
+	Result of voting Page : 
+	http://localhost:3000/result
+  	
+----------------------------------------
+
+
