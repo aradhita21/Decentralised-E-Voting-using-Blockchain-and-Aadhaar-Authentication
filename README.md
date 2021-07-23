@@ -42,7 +42,9 @@ How to run :
   	Open voting page http://localhost:3000/
 	Add user credentials (admin and password)
 	
-	Then page is redirected to the voters login page, voters have to enter their aadhaar number, and they will receive an OTP on the phone number linked with their Aadhaar. Then voter is authenticated and redirected to the voting page, where he can select any candidate and on pressing submit, vote is casted and stored in a block which is chained in the blockchain, and page is redirected again to the voters login page, where another voter can authenticate herself.
+	Then page is redirected to the voters login page, voters have to enter their aadhaar number, and they will receive an OTP on the phone number linked with their Aadhaar. 
+	Then voter is authenticated and redirected to the voting page, where he can select any candidate and on pressing submit, vote is casted and stored in a block which is chained in the blockchain. 
+	The page is redirected again to the voters login page, where another voter can authenticate herself.
 	
 	To see the results, open http://localhost:3000/result
 	
